@@ -37,17 +37,17 @@ export default function Historia() {
         </div>
 
         <div className="relative aspect-[4/5] w-full sm:w-[80%] mx-auto rounded-xl overflow-hidden shadow-lg">
-          <video 
-            className="w-full h-full object-cover"
-            controls
-            preload="metadata"
-            poster="/thumbnail-video.png"
-            loading="lazy"
-            playsInline
-          >
-            <source src="/demostracion.mp4" type="video/mp4" />
-            Seu navegador não suporta vídeos.
-          </video>
+            <video 
+                className="w-full h-full object-cover"
+                controls
+                preload="metadata"
+                poster="/sal-o/thumbnail-video.png"
+                loading="lazy"
+                playsInline
+            >
+                <source src="/sal-o/demostracion.mp4" type="video/mp4" />
+                Seu navegador não suporta vídeos.
+            </video>
         </div>
       </div>
     </section>

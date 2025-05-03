@@ -20,7 +20,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
           <div className="text-center sm:text-left">
             <div className="flex justify-center sm:justify-start">
-              <Image src="/logotipo.png" alt="Logo" width={150} height={40} className="mb-6 rounded-2xl" priority />
+              <Image 
+                src="/sal-o/logotipo.png" 
+                alt="Logo" 
+                width={120} 
+                height={32} 
+                className="mb-4 rounded-2xl" 
+                priority 
+              />
             </div>
             <p className={`text-gray-200 ${urbanistFont.className} text-base max-w-xs mx-auto sm:mx-0`}>
               Transformando sua beleza com excelência e dedicação

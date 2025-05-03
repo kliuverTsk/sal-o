@@ -5,11 +5,11 @@ import Image from 'next/image'
 
 export default function Experiencia() {
   const servicios = [
-    { imagen: '/maquillaje.svg', titulo: 'Maquiagem Profissional' },
-    { imagen: '/lavado.svg', titulo: 'Tratamento Capilar' },
-    { imagen: '/pestañas.svg', titulo: 'Design de Sobrancelhas' },
-    { imagen: '/uñas.svg', titulo: 'Manicure e Pedicure' },
-    { imagen: '/estetica.svg', titulo: 'Tratamentos Faciais' }
+    { imagen: '/sal-o/maquillaje.svg', titulo: 'Maquiagem Profissional' },
+    { imagen: '/sal-o/lavado.svg', titulo: 'Tratamento Capilar' },
+    { imagen: '/sal-o/pestañas.svg', titulo: 'Design de Sobrancelhas' },
+    { imagen: '/sal-o/uñas.svg', titulo: 'Manicure e Pedicure' },
+    { imagen: '/sal-o/estetica.svg', titulo: 'Tratamentos Faciais' }
 ]
 
   return (

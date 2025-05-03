@@ -20,7 +20,7 @@ export default function Header() {
       <div className="absolute inset-0 bg-gradient-to-r from-pink-800/95 to-transparent z-10" />
       
       <div 
-        className="absolute inset-0 bg-[url('/fondo-mujer.svg')] bg-no-repeat bg-cover bg-[position:80%_center] sm:bg-right z-0"
+        className="absolute inset-0 bg-[url('/sal-o/fondo-mujer.svg')] bg-no-repeat bg-cover bg-[position:80%_center] sm:bg-right z-0"
       />
 
       <div className="relative z-20 px-6 sm:px-8 md:px-24 py-12 flex flex-col justify-center h-full">

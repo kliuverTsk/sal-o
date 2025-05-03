@@ -5,24 +5,9 @@ import { motion } from "framer-motion"
 
 export default function Testimonios() {
   const testimonios = [
-    { 
-        foto: '/cliente1.svg', 
-        nombre: "Maria Silva",
-        cargo: "Cliente Frequente",
-        texto: "Encontrei aqui o melhor atendimento! As profissionais são muito atenciosas e os resultados sempre superam minhas expectativas. O ambiente é acolhedor e relaxante."
-    },
-    { 
-        foto: '/cliente2.svg', 
-        nombre: "Ana Santos",
-        cargo: "Cliente VIP",
-        texto: "Já experimentei vários salões, mas aqui é diferente. A qualidade dos produtos e o profissionalismo da equipe são incomparáveis. Sempre saio satisfeita!"
-    },
-    { 
-        foto: '/cliente3.svg', 
-        nombre: "Julia Costa",
-        cargo: "Cliente Regular",
-        texto: "O que mais me impressiona é a atenção aos detalhes. Cada visita é uma experiência única. As profissionais são verdadeiras artistas no que fazem."
-    }
+    { foto: '/sal-o/cliente1.svg', nombre: "Maria Silva", cargo: "Cliente Frequente", texto: "Encontrei aqui o melhor atendimento! As profissionais são muito atenciosas e os resultados sempre superam minhas expectativas. O ambiente é acolhedor e relaxante." },
+    { foto: '/sal-o/cliente2.svg', nombre: "Ana Santos", cargo: "Cliente VIP", texto: "Já experimentei vários salões, mas aqui é diferente. A qualidade dos produtos e o profissionalismo da equipe são incomparáveis. Sempre saio satisfeita!" },
+    { foto: '/sal-o/cliente3.svg', nombre: "Julia Costa", cargo: "Cliente Regular", texto: "O que mais me impressiona é a atenção aos detalhes. Cada visita é uma experiência única. As profissionais são verdadeiras artistas no que fazem." }
 ]
 
   const fadeIn = {
