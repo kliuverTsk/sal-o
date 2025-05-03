@@ -5,7 +5,8 @@ const nextConfig = {
         unoptimized: true,
     },
     basePath: '/sal-o',
-    assetPrefix: '/sal-o'
+    assetPrefix: '/sal-o',
+    distDir: 'out'
 }
 
 module.exports = nextConfig
