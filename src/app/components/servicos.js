@@ -18,7 +18,7 @@ export default function Servicos() {
     { icon: <GiNails size={32} />, name: "Manicure" },
     { icon: <TbMassage size={32} />, name: "Massagem" },
     { icon: <Image 
-             src='/feet.png' 
+             src='/sal-o/feet.png' 
              alt='podologia' 
              width={32} 
              height={32} 
@@ -29,7 +29,7 @@ export default function Servicos() {
       name: "Podologia" 
     },
     { icon: <Image 
-             src="/acrylic.png" 
+             src="/sal-o/acrylic.png" 
              alt="Unhas acrílicas" 
              width={32} 
              height={32}
@@ -63,8 +63,8 @@ export default function Servicos() {
 
           <div 
             ref={sliderRef}
-            className="flex overflow-x-auto gap-6 scroll-smooth no-scrollbar"
-            style={{ WebkitOverflowScrolling: 'touch' }}
+            className="flex overflow-x-auto gap-6 scroll-smooth no-scrollbar px-2"
+            style={{ WebkitOverflowScrolling: 'touch', scrollbarWidth: 'none' }}
           >
             {servicos.map((servico, index) => (
               <div 
