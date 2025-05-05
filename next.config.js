@@ -3,18 +3,9 @@ const nextConfig = {
     output: 'export',
     images: {
         unoptimized: true,
-        loader: 'default',
-        path: '/sal-o'
     },
     basePath: '/sal-o',
-    assetPrefix: '/sal-o/',
-    trailingSlash: true,
-    distDir: 'out',
-    experimental: {
-        images: {
-            unoptimized: true,
-        }
-    }
+    assetPrefix: '/sal-o'
 }
 
 module.exports = nextConfig
