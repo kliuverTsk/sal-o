@@ -35,7 +35,7 @@ export default function Echos(){
                 aria-hidden="true"
             />
             <div className="max-w-4xl mx-auto relative z-10">
-                <h2 className={`text-2xl sm:text-3xl font-bold text-center mb-12 sm:mb-16 ${playfairFont.className}`}>
+                <h2 className={`text-2xl sm:text-3xl font-bold text-center mb-12 sm:mb-16 text-black ${playfairFont.className}`}>
                     Os valores de trabalho pelos quais prosperamos
                 </h2>
                 
@@ -54,7 +54,7 @@ export default function Echos(){
                                 />
                             </div>
                             <div className="flex-1">
-                                <h3 className={`text-lg sm:text-xl font-semibold ${playfairFont.className}`}>
+                                <h3 className={`text-lg sm:text-xl font-semibold ${playfairFont.className} text-black`}>
                                     {servicio.title}
                                 </h3>
                                 <p className="text-gray-900 leading-relaxed font-medium mt-2 text-sm sm:text-base">

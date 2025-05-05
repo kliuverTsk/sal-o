@@ -13,7 +13,7 @@ export default function Historia() {
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 md:gap-12 items-center">
         <div>
           <span className="text-pink-500 font-medium mb-3 block text-sm sm:text-base">NOSSA HISTÓRIA</span>
-          <h2 className={`text-2xl sm:text-3xl font-bold mb-6 ${urbanistFont.className}`}>
+          <h2 className={`text-2xl sm:text-3xl font-bold mb-6 ${urbanistFont.className} text-black`}>
             O começo da jornada
           </h2>
           <p className="text-gray-700 mb-8 text-base sm:text-lg leading-relaxed">

@@ -51,7 +51,7 @@ export default function Servicos() {
   return (
     <section id="servicos" className="pt-28 pb-15 px-6 bg-white">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-12">Nossos Serviços</h2>
+        <h2 className="text-3xl font-bold text-center mb-12 text-black">Nossos Serviços</h2>
         
         <div className="relative">
           <button 

@@ -38,7 +38,7 @@ export default function Contacto() {
     <section id="contato" className="pt-20 sm:pt-28 pb-16 sm:pb-20 px-4 sm:px-6 bg-amber-50">
       <div className="max-w-3xl mx-auto">
         <span className="text-pink-500 font-medium mb-2 block text-center">ENTRE EM CONTATO</span>
-        <h2 className={`text-2xl sm:text-3xl font-bold text-center mb-4 ${urbanistFont.className}`}>
+        <h2 className={`text-2xl sm:text-3xl font-bold text-center mb-4 text-black ${urbanistFont.className}`}>
           Agende seu horário
         </h2>
         <p className="text-gray-900 text-center mb-8 sm:mb-12">
