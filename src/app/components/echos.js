@@ -5,19 +5,19 @@ import { playfairFont } from "../../ui/fonts"
 export default function Echos(){
     const servicios = [
         {
-            icon: "./acrylic.png",
+            icon: "/sal-o/acrylic.png",
             title: "Compromisso real",
             text: "Trabalhamos duro até que o trabalho fique bem feito, sem desculpas ou meias medidas.",
             alt: 'Compromisso real icon'
         },
         {
-            icon: "./femenine.png",
+            icon: "/sal-o/femenine.png",
             title: "Empoderamento Feminino",
             text: "Cada serviço — seja corte de cabelo, unhas ou maquiagem — é projetado para aumentar a confiança e a força dos nossos clientes.",
             alt: "signo feminino"
         },
         {
-            icon: "./feet.png",
+            icon: "/sal-o/feet.png",
             title: "Escuta e Empatia",
             text: 'Primeiro ouvimos o que você precisa e depois agimos. Dedicamos tempo para entender seu estilo de vida.',
             alt: "Escuta e empatia icon"
@@ -31,7 +31,7 @@ export default function Echos(){
             aria-label="Nossos valores de trabalho"
         >
             <div 
-                className="absolute inset-0 bg-[url('./background.svg')] bg-no-repeat bg-cover bg-center opacity-10"
+                className="absolute inset-0 bg-[url('/sal-o/background.svg')] bg-no-repeat bg-cover bg-center opacity-10"
                 aria-hidden="true"
             />
             <div className="max-w-4xl mx-auto relative z-10">
