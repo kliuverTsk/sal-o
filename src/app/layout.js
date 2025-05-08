@@ -16,7 +16,7 @@ export const viewport = {
 export const metadata = {
   title: "Fabulosa & Glamurosa | Salão de Beleza",
   description: "Transforme seu visual em nosso salão de beleza premium.",
-  metadataBase: new URL('https://kliuv.github.io'),
+  metadataBase: new URL('https://kliuv.github.io/sal-o'),
   openGraph: {
     type: 'website',
     locale: 'pt_BR',
@@ -26,7 +26,7 @@ export const metadata = {
     description: "Transforme seu visual em nosso salão de beleza premium.",
     images: [
       {
-        url: '/sal-o/elegant.png',
+        url: '/elegant.png',  // Cambiado para usar ruta relativa
         width: 1200,
         height: 630,
         alt: 'Fabulosa & Glamurosa Salão de Beleza'
@@ -37,7 +37,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: "Fabulosa & Glamurosa | Salão de Beleza",
     description: "Transforme seu visual em nosso salão de beleza premium.",
-    images: ['/sal-o/elegant.png'],
+    images: ['/elegant.png'],  // Cambiado para usar ruta relativa
   }
 }
 
