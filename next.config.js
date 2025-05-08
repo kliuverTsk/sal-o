@@ -2,17 +2,11 @@
 const nextConfig = {
     output: 'export',
     images: {
-        unoptimized: true,
-        remotePatterns: [{
-            protocol: 'https',
-            hostname: 'kliuvertsk.github.io',
-            pathname: '/sal-o/**'
-        }]
+        unoptimized: true
     },
     basePath: '/sal-o',
     assetPrefix: '/sal-o',
-    trailingSlash: true,
-    skipTrailingSlashRedirect: true
+    reactStrictMode: true
 }
 
 module.exports = nextConfig
