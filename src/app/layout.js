@@ -16,6 +16,18 @@ export const viewport = {
 export const metadata = {
   title: "Fabulosa & Glamurosa | Salão de Beleza",
   description: "Transforme seu visual em nosso salão de beleza premium.",
+  openGraph: {
+    title: "Fabulosa & Glamurosa | Salão de Beleza",
+    description: "Transforme seu visual em nosso salão de beleza premium.",
+    images: [
+      {
+        url: '/sal-o/elegant.png',
+        width: 1200,
+        height: 630,
+        alt: 'Fabulosa & Glamurosa Salão de Beleza'
+      }
+    ]
+  }
 }
 
 export default function RootLayout({ children }) {
