@@ -16,6 +16,7 @@ export const viewport = {
 export const metadata = {
   title: "Fabulosa & Glamurosa | Salão de Beleza",
   description: "Transforme seu visual em nosso salão de beleza premium.",
+  metadataBase: new URL('https://kliuv.github.io/sal-o'),
   openGraph: {
     title: "Fabulosa & Glamurosa | Salão de Beleza",
     description: "Transforme seu visual em nosso salão de beleza premium.",
