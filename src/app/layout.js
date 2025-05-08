@@ -16,26 +16,21 @@ export const viewport = {
 export const metadata = {
   title: "Fabulosa & Glamurosa | Salão de Beleza",
   description: "Transforme seu visual em nosso salão de beleza premium.",
-  metadataBase: new URL('https://kliuvertsk.github.io'),
+  metadataBase: new URL('https://kliuvertsk.github.io/sal-o'),
   openGraph: {
     type: 'website',
     locale: 'pt_BR',
-    url: 'https://kliuvertsk.github.io/sal-o/',
     siteName: 'Fabulosa & Glamurosa',
     title: "Fabulosa & Glamurosa | Salão de Beleza",
     description: "Transforme seu visual em nosso salão de beleza premium.",
     images: [{
-      url: 'https://kliuvertsk.github.io/sal-o/elegant.png', // URL absoluta
+      url: 'elegant.png',
       width: 1200,
       height: 630,
-      alt: 'Fabulosa & Glamurosa Salão de Beleza'
-    }]
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: "Fabulosa & Glamurosa | Salão de Beleza",
-    description: "Transforme seu visual em nosso salão de beleza premium.",
-    images: ['https://kliuvertsk.github.io/sal-o/elegant.png'], // URL absoluta
+      alt: 'Fabulosa & Glamurosa Salão de Beleza',
+      type: 'image/png'
+    }],
+    useAppDir: true
   }
 }
 
